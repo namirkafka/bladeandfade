@@ -1,0 +1,441 @@
+.navbar{
+    border: 1px solid #e3ac46;
+    border-radius: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: black;
+    position: fixed;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;  
+    margin: 20px 0px;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 18px;
+    text-decoration:none;
+}
+a{
+    
+    font-family: sans-serif;
+    text-decoration: none;
+    color:#fac852;
+}
+h2{
+    font-family: serif;
+    color: #fac852;
+}
+.herosec{
+    height:1000px;
+    border-radius: 10px;
+    background-image: url(images/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 400%;
+    line-height: 0px;
+    
+}
+.herosec > .button{
+    font-size: large;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid #e3ac46;
+    padding: 10px;
+}
+.herosec > .button:hover a{
+    background-color: #e3ac46;
+    color: black;
+    
+}
+.herosec > .button:hover{
+    background-color: #e3ac46;
+    border: solid 1px black;
+
+}
+
+.herosec > .bandf{
+    margin-top: 20% ;
+   -webkit-text-stroke: black 2px;
+    color: #e3ac46;
+}
+.map{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+iframe{
+    border-radius: 10px;
+   height: 75%;
+   width:100%;
+   
+}
+.elfsight-app-4bed3531-babf-41ff-95f0-edd8c824414b{
+    width: 50%;
+    padding: 10px;
+    margin: 100px 0px;
+    
+}
+
+.footer{
+    background-color: silver;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    
+}
+.footer a{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    color: rgb(117, 117, 117);
+    width: 80px;
+}
+.images{
+
+    display: flex;
+    justify-content: sp;
+    gap: 10px;
+    overflow-x: auto;
+    margin-bottom: 100px;
+
+}
+.gallery{
+    color: #e3ac46;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px;
+    text-align: center;
+    
+    
+}
+
+h1{
+    font-family: serif;
+    color: #e3ac46;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+p{
+    line-height: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.logo{
+    text-align: center;
+    display: flex;
+    line-height: 0;
+    padding-top: 10px;
+    
+}
+h6{
+    font-family: sans-serif;
+}
+.img{
+    object-fit: fill;
+    border-radius: 20px;
+    height: 300px;
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(210, 210, 210);
+
+}
+.field{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+.messagefield{
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+}
+.submitbutton{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    color: #e3ac46;
+    direction: none;
+    border: 1px solid #e3ac46;
+}
+.submitbutton:hover{
+    background-color: #e3ac46;
+    color: black;
+}
+.submitbutton:active{
+    background-color: black;
+    color: #e3ac46;
+}
+.abouttext{
+    margin: 50px 100px;
+}
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .navbar{
+    border: 1px solid #e3ac46;
+    border-radius: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: black;
+    position: fixed;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;  
+    margin: 20px 0px;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 18px;
+    text-decoration:none;
+}
+a{
+    
+    font-family: sans-serif;
+    text-decoration: none;
+    color:#fac852;
+}
+h2{
+    font-family: serif;
+    color: #fac852;
+}
+.herosec{
+    height:1000px;
+    border-radius: 10px;
+    background-image: url(images/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 400%;
+    line-height: 0px;
+    
+}
+.herosec > .button{
+    font-size: large;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid #e3ac46;
+    padding: 10px;
+}
+.herosec > .button:hover a{
+    background-color: #e3ac46;
+    color: black;
+    
+}
+.herosec > .button:hover{
+    background-color: #e3ac46;
+    border: solid 1px black;
+
+}
+
+.herosec > .bandf{
+    margin-top: 20% ;
+   -webkit-text-stroke: black 2px;
+    color: #e3ac46;
+}
+.map{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+iframe{
+    border-radius: 10px;
+   height: 100%;
+   width:75%;
+   
+}
+.elfsight-app-4bed3531-babf-41ff-95f0-edd8c824414b{
+    width: 50%;
+    padding: 10px;
+    margin: 100px 0px;
+    
+}
+
+.footer{
+    background-color: silver;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    
+}
+.footer a{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    color: rgb(117, 117, 117);
+    width: 80px;
+}
+.images{
+
+    display: flex;
+    justify-content: sp;
+    gap: 10px;
+    overflow-x: auto;
+    margin-bottom: 100px;
+
+}
+.gallery{
+    color: #e3ac46;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px;
+    text-align: center;
+    
+    
+}
+
+h1{
+    font-family: serif;
+    color: #e3ac46;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+p{
+    line-height: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.logo{
+    text-align: center;
+    display: flex;
+    line-height: 0;
+    padding-top: 10px;
+    
+}
+h6{
+    font-family: sans-serif;
+}
+.img{
+    object-fit: fill;
+    border-radius: 20px;
+    height: 300px;
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(210, 210, 210);
+
+}
+.field{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+.messagefield{
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+}
+.submitbutton{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    color: #e3ac46;
+    direction: none;
+    border: 1px solid #e3ac46;
+}
+.submitbutton:hover{
+    background-color: #e3ac46;
+    color: black;
+}
+.submitbutton:active{
+    background-color: black;
+    color: #e3ac46;
+}
+.abouttext{
+    margin: 50px 100px;
+}
+
+
+}
