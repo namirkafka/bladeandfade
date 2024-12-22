@@ -224,7 +224,7 @@ form{
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .navbar{
     border: 1px solid #e3ac46;
     border-radius: 90px;
@@ -234,7 +234,7 @@ form{
     padding: 0px 40px;
     background-color: black;
     position: fixed;
-    width: 90%;
+    width: 70%;
     left: 50%;
     transform: translate(-50%);
     z-index: 1000;  
@@ -244,8 +244,8 @@ form{
 .navlinks{
     display: flex;
     align-items: center;
-    gap: 50px;
-    font-size: 18px;
+    gap: 10px;
+    font-size: 12px;
     text-decoration:none;
 }
 a{
@@ -270,7 +270,7 @@ h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 400%;
+    font-size: 200%;
     line-height: 0px;
     
 }
@@ -385,6 +385,7 @@ p{
     display: flex;
     line-height: 0;
     padding-top: 10px;
+    font-size: small;
     
 }
 h6{
