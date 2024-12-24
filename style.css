@@ -1,6 +1,6 @@
 .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 90px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,10 +32,10 @@ h2{
     color: #fac852;
 }
 .herosec{
-    height:1000px;
+    height:900px;
     border-radius: 10px;
-    background-image: url(images/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
-    background-size: cover;
+    background-image: url(images/WhatsApp\ Image\ 2024-12-23\ at\ 19.15.37_cec48005.jpg);
+    background-size: 100% 100%;
     padding: 20px;
     margin-top: 0px;
     display: flex;
@@ -128,10 +128,12 @@ iframe{
     border-radius: 10px;
 }
 .services{
-    display: flex;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr 1fr ;
     justify-content: center;
     padding: 10px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: baseline;
     gap: 10px;
     text-align: center;
@@ -166,9 +168,24 @@ h6{
 .img{
     object-fit: fill;
     border-radius: 20px;
+    height: 150px;
+    padding: 10px;
+    
+}
+
+.img1{
+    object-fit: fill;
+    border-radius: 20px;
     height: 300px;
     padding: 10px;
 }
+.cards{
+    padding: 20px;
+}
+.cards:hover{
+    transform: scale(1.4);
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -209,6 +226,7 @@ form{
 .abouttext{
     margin: 50px 100px;
 }
+
             
 
 
@@ -227,14 +245,15 @@ form{
 @media (max-width: 480px) {
     .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 90px;
+    border-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between ;
     align-items: center;
-    padding: 0px 40px;
+    padding: 0px 020px;
+    gap: 10px;
     background-color: black;
     position: fixed;
-    width: 70%;
+    width: 80%;
     left: 50%;
     transform: translate(-50%);
     z-index: 1000;  
@@ -245,7 +264,7 @@ form{
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 12px;
+    font-size: 10px;
     text-decoration:none;
 }
 a{
@@ -259,10 +278,10 @@ h2{
     color: #fac852;
 }
 .herosec{
-    height:1000px;
+    height:600px;
     border-radius: 10px;
-    background-image: url(images/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
-    background-size: cover;
+    background-image: url(images/WhatsApp\ Image\ 2024-12-23\ at\ 19.15.37_cec48005.jpg);
+    background-size: 150% 100%;
     padding: 20px;
     margin-top: 0px;
     display: flex;
@@ -270,12 +289,11 @@ h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 200%;
     line-height: 0px;
     
 }
 .herosec > .button{
-    font-size: large;
+    font-size: xx-small;
     background-color: black;
     border-radius: 20px;
     border: 1px solid #e3ac46;
@@ -293,12 +311,15 @@ h2{
 }
 
 .herosec > .bandf{
-    margin-top: 20% ;
-   -webkit-text-stroke: black 2px;
+   -webkit-text-stroke: black 0.5px;
     color: #e3ac46;
+    font-size: 30px;
+    text-align: center;
+
+    width: 100%;
 }
 .map{
-    height: 1000px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -309,13 +330,13 @@ h2{
 iframe{
     border-radius: 10px;
    height: 100%;
-   width:75%;
+   width:100%;
    
 }
 .elfsight-app-4bed3531-babf-41ff-95f0-edd8c824414b{
     width: 50%;
     padding: 10px;
-    margin: 100px 0px;
+    margin: 0px 0px;
     
 }
 
@@ -335,7 +356,7 @@ iframe{
     padding-top: 20px;
     display: flex;
     justify-content: center;
-    font-size: medium;
+    font-size: small;
     color: rgb(117, 117, 117);
     width: 80px;
 }
@@ -355,12 +376,13 @@ iframe{
     border-radius: 10px;
 }
 .services{
-    display: flex;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
-    padding: 10px;
-    flex-wrap: wrap;
+    padding: 5px;
     align-items: baseline;
-    gap: 10px;
+    gap: 5px;
     text-align: center;
     
     
@@ -371,7 +393,8 @@ h1{
     color: #e3ac46;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
+    font-size: large;
 }
 p{
     line-height: 40px;
@@ -384,8 +407,7 @@ p{
     text-align: center;
     display: flex;
     line-height: 0;
-    padding-top: 10px;
-    font-size: small;
+    font-size: xx-small;
     
 }
 h6{
@@ -394,9 +416,24 @@ h6{
 .img{
     object-fit: fill;
     border-radius: 20px;
+    height: 100px;
+    padding: 10px;
+    
+}
+
+.img1{
+    object-fit: fill;
+    border-radius: 20px;
     height: 300px;
     padding: 10px;
 }
+.cards{
+    padding: 20px;
+}
+.cards:hover{
+    transform: scale(1.4);
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -404,18 +441,18 @@ form{
     gap: 10px;
     padding: 20px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 50px 0px;
     background-color: rgb(210, 210, 210);
 
 }
 .field{
-    width: 50%;
+    width: 100%;
     height: 30px;
     border-radius: 10px;
 }
 .messagefield{
-    width: 50%;
-    height: 100px;
+    width: 100%;
+    height: 200px;
     border-radius: 10px;
 }
 .submitbutton{
@@ -435,8 +472,10 @@ form{
     color: #e3ac46;
 }
 .abouttext{
-    margin: 50px 100px;
+    text-align: center;
+    margin: 20px 50px;
 }
-
-
+}
+.reviews{
+    margin-bottom: 50px;
 }
