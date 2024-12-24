@@ -1,6 +1,6 @@
 .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,6 +8,7 @@
     background-color: black;
     position: fixed;
     width: 90%;
+    height: 60px;
     left: 50%;
     transform: translate(-50%);
     z-index: 1000;  
@@ -50,7 +51,7 @@ h2{
 .herosec > .button{
     font-size: large;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid #e3ac46;
     padding: 10px;
     animation: appear 1s ease-in;
@@ -269,7 +270,7 @@ form{
 @media (max-width: 480px) {
     .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content:space-between ;
     align-items: center;
@@ -304,7 +305,8 @@ h2{
     height:600px;
     border-radius: 10px;
     background-image: url(images/WhatsApp\ Image\ 2024-12-23\ at\ 19.15.37_cec48005.jpg);
-    background-size: 160% 100%;
+    background-position: -120px;
+    background-size: 170% 110%;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
@@ -317,7 +319,7 @@ h2{
 .herosec > .button{
     font-size: small;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid #e3ac46;
     padding: 10px;animation: appear 1s ease-in;
 }
@@ -538,7 +540,7 @@ form{
 @media (min-width: 481px) and (max-width: 768px ) {
     .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content:space-between ;
     align-items: center;
@@ -573,7 +575,8 @@ h2{
     height:600px;
     border-radius: 10px;
     background-image: url(images/WhatsApp\ Image\ 2024-12-23\ at\ 19.15.37_cec48005.jpg);
-    background-size: 160% 100%;
+    background-position: -200px;
+    background-size: 160% 120%;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
@@ -586,7 +589,7 @@ h2{
 .herosec > .button{
     font-size: small;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid #e3ac46;
     padding: 10px;
     animation: appear 1s ease-in;
