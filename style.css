@@ -263,8 +263,8 @@ form{
 .navlinks{
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 10px;
+    gap: 15px;
+    font-size: 12px;
     text-decoration:none;
 }
 a{
@@ -313,9 +313,8 @@ h2{
 .herosec > .bandf{
    -webkit-text-stroke: black 0.5px;
     color: #e3ac46;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
-
     width: 100%;
 }
 .map{
@@ -394,7 +393,7 @@ h1{
     display: flex;
     justify-content: center;
     padding: 30px;
-    font-size: large;
+    font-size: 30px;
 }
 p{
     line-height: 40px;
