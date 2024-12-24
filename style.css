@@ -1,6 +1,6 @@
 .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 15px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,10 +51,11 @@ h2{
 .herosec > .button{
     font-size: large;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid #e3ac46;
     padding: 10px;
-    animation: appear 1s ease-in;
+    transform: translateY(-30px);
+    animation: appear 0.5s ease-in;
 }
 @keyframes appear {
     from {
@@ -79,14 +80,15 @@ h2{
 }
 
 .herosec > .bandf{
-    font-size: 80px;
+    font-size: 90px;
     margin-top: 20% ;
    -webkit-text-stroke: black 2px;
-    color: #e3ac46;animation: slidein 1s ease-in;
+    color: #e3ac46;
+    animation: slidein 0.5s ease-in;
 }
 @keyframes slidein {
     from {
-        transform: translateY(-100%);
+        transform: translateY(-50%);
       opacity: 0;
     }
   
@@ -319,9 +321,11 @@ h2{
 .herosec > .button{
     font-size: small;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid #e3ac46;
-    padding: 10px;animation: appear 1s ease-in;
+    padding: 10px;
+    transform: translateY(-30px);
+    animation: appear 0.5s ease-in;
 }
 @keyframes appear {
     from {
@@ -350,11 +354,11 @@ h2{
     font-size: 40px;
     text-align: center;
     width: 100%;
-    animation: slidein 1s ease-in;
+    animation: slidein 0.5s ease-in;
 }
 @keyframes slidein {
     from {
-        transform: translateY(-100%);
+        transform: translateY(-50%);
       opacity: 0;
     }
   
@@ -537,7 +541,7 @@ form{
 
 
 
-@media (min-width: 481px) and (max-width: 768px ) {
+@media (min-width: 481px) and (max-width: 800px ) {
     .navbar{
     border: 1px solid #e3ac46;
     border-radius: 20px;
@@ -589,10 +593,11 @@ h2{
 .herosec > .button{
     font-size: small;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid #e3ac46;
     padding: 10px;
-    animation: appear 1s ease-in;
+    transform: translateY(-30px);
+    animation: appear 0.5s ease-in;
 }
 @keyframes appear {
     from {
@@ -621,11 +626,11 @@ h2{
     font-size: 50px;
     text-align: center;
     width: 100%;
-    animation: slidein 1s ease-in;
+    animation: slidein 0.5s ease-in;
 }
 @keyframes slidein {
     from {
-        transform: translateY(-100%);
+        transform: translateY(-50%);
       opacity: 0;
     }
   
