@@ -263,7 +263,7 @@ form{
     display: flex;
     align-items: center;
     gap: 15px;
-    font-size: 12px;
+    font-size: small;
     text-decoration:none;
 }
 a{
@@ -280,7 +280,7 @@ h2{
     height:600px;
     border-radius: 10px;
     background-image: url(images/WhatsApp\ Image\ 2024-12-23\ at\ 19.15.37_cec48005.jpg);
-    background-size: 150% 100%;
+    background-size: 200% 100%;
     padding: 20px;
     margin-top: 0px;
     display: flex;
@@ -405,7 +405,7 @@ p{
     text-align: center;
     display: flex;
     line-height: 0;
-    font-size: small;
+    font-size: xx-small;
     
 }
 h6{
