@@ -281,7 +281,7 @@ h2{
     border-radius: 10px;
     background-image: url(images/WhatsApp\ Image\ 2024-12-23\ at\ 19.15.37_cec48005.jpg);
     background-size: 160% 100%;
-    padding: 20px;
+    padding: 10px;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
@@ -312,7 +312,7 @@ h2{
 .herosec > .bandf{
    -webkit-text-stroke: black 0.5px;
     color: #e3ac46;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     width: 100%;
 }
