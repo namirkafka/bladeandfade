@@ -1,6 +1,6 @@
 .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -272,7 +272,7 @@ form{
 @media (max-width: 480px) {
     .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     justify-content:space-between ;
     align-items: center;
@@ -544,7 +544,7 @@ form{
 @media (min-width: 481px) and (max-width: 800px ) {
     .navbar{
     border: 1px solid #e3ac46;
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     justify-content:space-between ;
     align-items: center;
