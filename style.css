@@ -1,10 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .navbar{
     border: 1px solid #e3ac46;
     border-radius: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px;
+    padding: 0px 20px;
     background-color: black;
     position: fixed;
     width: 90%;
@@ -31,6 +35,7 @@ a{
 h2{
     font-family: serif;
     color: #fac852;
+    margin: 20px 0px;
 }
 .herosec{
     height:900px;
@@ -54,7 +59,6 @@ h2{
     border-radius: 20px;
     border: 1px solid #e3ac46;
     padding: 10px;
-    transform: translateY(-30px);
     animation: appear 0.5s ease-in;
 }
 @keyframes appear {
@@ -81,7 +85,8 @@ h2{
 
 .herosec > .bandf{
     font-size: 90px;
-    margin-top: 20% ;
+    margin-top: 20%;
+    gap: 200px;
    -webkit-text-stroke: black 2px;
     color: #e3ac46;
     animation: slidein 0.5s ease-in;
@@ -110,14 +115,14 @@ h2{
 
 iframe{
     border-radius: 10px;
-   height: 75%;
+   height: 100%;
    width:100%;
    
 }
 .elfsight-app-4bed3531-babf-41ff-95f0-edd8c824414b{
     width: 50%;
     padding: 10px;
-    margin: 100px 0px;
+    margin: 50px 0px;
     
 }
 
@@ -126,20 +131,18 @@ iframe{
     border-radius: 10px;
     padding: 20px;
     gap: 10px;
+    justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    height: 100px;
     
 }
 .footer a{
-    padding-top: 20px;
     display: flex;
-    justify-content: center;
-    font-size: medium;
+    font-size: small;
     color: rgb(117, 117, 117);
-    width: 80px;
+    text-align: left;
+    width: fit-content;
 }
 .images{
 
@@ -159,15 +162,12 @@ iframe{
 .services{
     margin-bottom: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr  1fr 1fr ;
+    grid-template-columns:1fr 1fr 1fr;
     justify-content: center;
     padding: 10px;
-    flex-wrap: nowrap;
     align-items: baseline;
     gap: 10px;
     text-align: center;
-    
-    
 }
 
 h1{
@@ -188,8 +188,8 @@ p{
     text-align: center;
     display: flex;
     line-height: 0;
-    padding-top: 10px;
-    
+    align-items: center;
+    margin-bottom: 10px;
 }
 h6{
     font-family: sans-serif;
@@ -276,7 +276,7 @@ form{
     display: flex;
     justify-content:space-between ;
     align-items: center;
-    padding: 0px 10px;
+    padding: 0px 20px;
     background-color: black;
     position: fixed;
     width: 90%;
@@ -302,6 +302,7 @@ a{
 h2{
     font-family: serif;
     color: #fac852;
+    font-size: small;
 }
 .herosec{
     height:600px;
@@ -324,7 +325,6 @@ h2{
     border-radius: 20px;
     border: 1px solid #e3ac46;
     padding: 10px;
-    transform: translateY(-30px);
     animation: appear 0.5s ease-in;
 }
 @keyframes appear {
@@ -394,21 +394,20 @@ iframe{
 .footer{
     background-color: silver;
     border-radius: 10px;
+    padding: 20px;
     gap: 10px;
+    justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    height: 100px;
     
 }
 .footer a{
-    padding-top: 20px;
     display: flex;
-    justify-content: center;
-    font-size: small;
+    font-size: xx-small;
     color: rgb(117, 117, 117);
-    width: 80px;
+    text-align: left;
+    width: fit-content;
 }
 .images{
 
@@ -456,11 +455,12 @@ p{
 .logo{
     text-align: center;
     display: flex;
+    margin-bottom: 10px;
     line-height: 0;
-    font-size: xx-small;
     
 }
 h6{
+    font-size: 8px;
     font-family: sans-serif;
 }
 .img{
@@ -548,7 +548,7 @@ form{
     display: flex;
     justify-content:space-between ;
     align-items: center;
-    padding: 0px 10px;
+    padding: 0px 20px;
     background-color: black;
     position: fixed;
     width: 90%;
@@ -574,6 +574,7 @@ a{
 h2{
     font-family: serif;
     color: #fac852;
+    margin: 20px 0px;
 }
 .herosec{
     height:600px;
@@ -596,7 +597,6 @@ h2{
     border-radius: 20px;
     border: 1px solid #e3ac46;
     padding: 10px;
-    transform: translateY(-30px);
     animation: appear 0.5s ease-in;
 }
 @keyframes appear {
@@ -628,7 +628,7 @@ h2{
     width: 100%;
     animation: slidein 0.5s ease-in;
 }
-@keyframes slidein {
+    @keyframes slidein {
     from {
         transform: translateY(-50%);
       opacity: 0;
@@ -638,8 +638,7 @@ h2{
         transform:translateY(0%); ;
       opacity: 1;
     }
-  }
-    
+
 }
 .map{
     height: 500px;
@@ -648,8 +647,6 @@ h2{
     align-items: center;
     padding: 20px;
 }
-
-
 iframe{
     border-radius: 10px;
    height: 100%;
@@ -662,25 +659,23 @@ iframe{
     margin: 0px 0px;
     
 }
-
 .footer{
     background-color: silver;
     border-radius: 10px;
+    padding: 20px;
     gap: 10px;
+    justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    height: 100px;
     
 }
 .footer a{
-    padding-top: 20px;
     display: flex;
-    justify-content: center;
-    font-size: small;
+    font-size: xx-small;
     color: rgb(117, 117, 117);
-    width: 80px;
+    text-align: left;
+    width: fit-content;
 }
 .images{
 
@@ -708,7 +703,6 @@ iframe{
     
     
 }
-
 h1{
     font-family: serif;
     color: #e3ac46;
@@ -798,4 +792,5 @@ form{
 
 .reviews{
     margin-bottom: 50px;
+}  
 }
